@@ -1,0 +1,28 @@
+title: Buch in Deutsch
+keywords: [Deutsch, Buch]
+
+figureTitle: Abbildung
+tableTitle: Tabelle
+listingTitle: Kode
+
+figPrefix:
+  - "Abbildung"
+  - "Abbildungen"
+eqnPrefix:
+  - "Gleichung"
+  - "Gleichungen"
+tblPrefix:
+  - "Tabelle"
+  - "Tabellen"
+lstPrefix:
+  - "Kode"
+  - "Kodes"
+secPrefix:
+  - "Abschnitt"
+  - "Abschnitten"
+
+reference-section-title: Referenzen
+toc-title: Inhalt
+
+defTitle: Definition
+

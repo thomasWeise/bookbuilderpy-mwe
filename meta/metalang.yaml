@@ -1,0 +1,27 @@
+title: Book in English
+keywords: [English, Book]
+
+figureTitle: Figure
+tableTitle: Table
+listingTitle: Listing
+
+figPrefix:
+  - "Figure"
+  - "Figures"
+eqnPrefix:
+  - "Equation"
+  - "Equations"
+tblPrefix:
+  - "Table"
+  - "Tables"
+lstPrefix:
+  - "Listing"
+  - "Listings"
+secPrefix:
+  - "Section"
+  - "Sections"
+
+reference-section-title: References
+
+defTitle: Definition
+

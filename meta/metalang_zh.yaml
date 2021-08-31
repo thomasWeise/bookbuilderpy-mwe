@@ -1,0 +1,30 @@
+title: 中文书
+keywords: [中文, 书]
+
+CJKmainfont: Noto Sans CJK SC
+
+figureTitle: 图
+tableTitle: 表
+listingTitle: 源代码
+
+figPrefix:
+  - "图"
+  - "图"
+eqnPrefix:
+  - "方程式"
+  - "方程式"
+tblPrefix:
+  - "表"
+  - "表"
+lstPrefix:
+  - "源代码"
+  - "源代码"
+secPrefix:
+  - "章"
+  - "章"
+
+reference-section-title: 参考文献
+toc-title: 目录
+
+defTitle: 定义
+
