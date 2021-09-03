@@ -44,14 +44,12 @@ If you want to learn more about using the tool suite, you can read the documenta
 If you use [Ubuntu](https://ubuntu.com) [Linux](https://www.linux.org) and have [docker installed](https://docs.docker.com/engine/install/ubuntu/), then you can run this example on your PC using the [docker image](http://hub.docker.com/r/thomasweise/docker-bookbuilderpy/) holding a complete installation of the tool suite.
 
 
-```shell
-mkdir example
-cd example
-git clone https://github.com/thomasWeise/bookbuilderpy-mwe.git
-mkdir result
-sudo docker run -v "$(pwd)/bookbuilderpy-mwe":/input/:ro -v "$(pwd)/result":/output/ thomasweise/docker-bookbuilderpy book.md
-sudo chown $USER -R result
-```
+- `mkdir example`
+- `cd example`
+- `git clone https://github.com/thomasWeise/bookbuilderpy-mwe.git`
+- `mkdir result`
+- `sudo docker run -v "$(pwd)/bookbuilderpy-mwe":/input/:ro -v "$(pwd)/result":/output/ thomasweise/docker-bookbuilderpy book.md`
+- `sudo chown $USER -R result`
 
 If you want to create an own book on GitHub and have it automatically compiled and published after each commit, you can use a [GitHub Actions](https://github.com/features/actions) for this purpose.
 This, again, is described in detail in the [documentation](https://github.com/thomasWeise/bookbuilderpy/blob/main/README.md).
