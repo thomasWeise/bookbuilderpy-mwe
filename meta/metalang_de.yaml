@@ -26,3 +26,20 @@ toc-title: Inhalt
 
 defTitle: Definition
 
+# line 1..3: hold floating objects in the same section and sub-section
+# line 4..6: prevent ugly broken footnotes
+# line 7..9: fix section and chapter names
+header-includes:
+- |
+  ```{=latex}
+  \usepackage[section,above,below]{placeins}
+  \let\Oldsubsection\subsection
+  \renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+  \addtolength{\topskip}{0pt plus 10pt}
+  \interfootnotelinepenalty=10000
+  \raggedbottom
+  \usepackage[nameinlink]{cleveref}
+  \crefname{chapter}{Kapitel}{Kapitel}
+  \crefname{section}{Abschnitt}{Abschnitten}
+  ```
+
