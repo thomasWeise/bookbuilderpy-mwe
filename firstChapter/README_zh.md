@@ -2,6 +2,10 @@
 
 欢迎欢迎，弟子章来了。
 
+\rel.figure{myfig}{这是一个数字标题。}{figure.svg}{}
+
+先看[@fig:myfig]把。
+
 $$ y = 3\sin{y} +5$$ {#eq:sin}
 
 现在看[@eq:sin]把。

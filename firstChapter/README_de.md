@@ -2,6 +2,10 @@
 
 Wilkommen zum ersten Kapitel.
 
+\rel.figure{myfig}{Dies ist eine Bildüberschrift.}{figure.svg}{}
+
+Betrachten Sie nun [@fig:myfig].
+
 $$ y = 3\sin{y} +5$$ {#eq:sin}
 
 Schauen Sie bitte auf [@eq:sin].
