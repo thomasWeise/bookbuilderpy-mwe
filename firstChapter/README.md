@@ -19,3 +19,10 @@ Take a look at [@eq:sin].
 
 [@tbl:mytable] is also important.
 
+\rel.code{localCode}{This is a local code file but we only use lines 6 to 12 and apply automatic simplification.}{logger.py}{6-12}{}{}
+
+\git.code{bb}{gitCode}{This is a code file from a GitHub repository. We again only use lines 6 to 12, but without simplification.}{bookbuilderpy/logger.py}{6-12}{}{doc,comments,hints}
+
+[@lst:localCode] is a local code file, [@lst:gitCode] comes from GitHub.
+
+

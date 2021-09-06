@@ -19,3 +19,10 @@ $$ y = 3\sin{y} +5$$ {#eq:sin}
 
 [@tbl:mytable]有好多的意思。
 
+\rel.code{localCode}{这是一个本地代码文件，但我们只使用第6到12行。程序代码自动简化。}{logger.py}{6-12}{}{}
+
+\git.code{bb}{gitCode}{T这是GitHub存储库中的代码文件。我们再次只使用第6到12行。程序代码不会自动简化。}{bookbuilderpy/logger.py}{6-12}{}{doc,comments,hints}
+
+[@lst:localCode]是一个本地代码文件。
+[@lst:gitCode]这是一个来自GitHub的文件。
+

@@ -19,3 +19,11 @@ Schauen Sie bitte auf [@eq:sin].
 
 [@tbl:mytable] ist auch wichtig.
 
+\rel.code{localCode}{Dies ist eine lokale Kode-Datei, aber wir verwenden nur Zeilen 6 bis 12 und vereinfachen diese automatisch.}{logger.py}{6-12}{}{}
+
+\git.code{bb}{gitCode}{Dies ist eine lokale Kode-Datei von einem GitHub repository. Wir verwenden wieder nur Zeilen 6 bis 12 ohne zu vereinfachen.}{bookbuilderpy/logger.py}{6-12}{}{doc,comments,hints}
+
+[@lst:localCode] ist ein lokale Kode-Datei, [@lst:gitCode] kommt von GitHub.
+
+
+
