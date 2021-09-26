@@ -28,7 +28,7 @@ template.html: GitHub.html5
 # GitHub repositories for code inclusion
 repos:
   - id: bb
-    url: https://github.com/thomasWeise/bookbuilderpy.git
+    url: https://github.com/thomasWeise/bookbuilderpy-mwe.git
 
 # LaTeX template metadata
 template.latex: eisvogel.tex

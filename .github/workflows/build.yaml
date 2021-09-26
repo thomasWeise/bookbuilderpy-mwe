@@ -16,6 +16,7 @@ jobs:
       run: |
         mkdir -p /tmp/result
         docker run -v $(pwd):/input/:ro -v /tmp/result/:/output/ thomasweise/docker-bookbuilderpy book.md
+        touch /tmp/result/.nojekyll
 
     - name: deploy
       uses: JamesIves/github-pages-deploy-action@4.1.4

@@ -1,6 +1,6 @@
 # Minimum Working Example for [bookbuilderpy](https://github.com/thomasWeise/bookbuilderpy) Tool Suite
 
-This is a Minimum Working Example for [`bookbuilderpy` Tool Suite](https://github.com/thomasWeise/bookbuilderpy).
+This is a Minimum Working Example for all the features provided by the [`bookbuilderpy` Tool Suite](https://github.com/thomasWeise/bookbuilderpy).
 You can use this as a blueprint for making your own books.
 
 ## 1. Introduction

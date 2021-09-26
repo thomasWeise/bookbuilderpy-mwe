@@ -6,9 +6,11 @@
 
 先看[@fig:myfig]把。
 
-$$ y = 3\sin{y} +5$$ {#eq:sin}
+$$\sum_{i=1}^n \frac{y^i}{n} = \sqrt{3\sin{y} +5}$$ {#eq:sin}
 
 现在看[@eq:sin]把。
+我们也可以直接在文本中包含数学公式。
+我们也可写$x = \log_2 5$。
 
 |文本居中的表格列|文本右对齐的表格列|文本左对齐的表格列|
 |:-:|--:|:--|
@@ -21,8 +23,10 @@ $$ y = 3\sin{y} +5$$ {#eq:sin}
 
 \rel.code{localCode}{这是一个本地代码文件，但我们只使用第6到12行。程序代码自动简化。}{logger.py}{6-12}{}{}
 
-\git.code{bb}{gitCode}{T这是GitHub存储库中的代码文件。我们再次只使用第6到12行。程序代码不会自动简化。}{bookbuilderpy/logger.py}{6-12}{}{doc,comments,hints}
+\git.code{bb}{gitCode}{T这是GitHub存储库中的代码文件。我们再次只使用第6到12行。程序代码不会自动简化。}{firstChapter/logger.py}{6-12}{}{doc,comments,hints}
 
 [@lst:localCode]是一个本地代码文件。
+此文件与本章的markdown文件在同一个文件夹中。
 [@lst:gitCode]这是一个来自GitHub的文件。
+该文件来自元数据中声明的Git存储库`bb`。
 
