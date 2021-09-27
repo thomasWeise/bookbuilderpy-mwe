@@ -2,6 +2,12 @@
 
 Wilkommen zum ersten Kapitel.
 
+## Erster Abschnitt des Ersten Kapitels {#sec:theSection}
+
+Mit `# ` fängt eine Kapitelüberschrift an, wie in [@sec:theChapter].
+Mit `## ` fängt eine Abschnittsüberschrift an, wie in [@sec:theSection].
+`### ` started einen Unterabschnitt und so weiter und so fort.
+
 \rel.figure{myfig}{Dies ist eine Bildüberschrift.}{figure.svg}{}
 
 Betrachten Sie nun [@fig:myfig].

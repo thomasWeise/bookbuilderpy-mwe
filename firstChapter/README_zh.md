@@ -2,6 +2,12 @@
 
 欢迎欢迎，弟子章来了。
 
+## 这是第一章的第一节 {#sec:theSection}
+
+使用`# `，你可以开始一个章节的标题，例如在[@sec:theChapter]。
+使用`## `，你可以开始一个节的标题，例如在[@sec:theSection]。
+`### `开始一个分段，依此类推。
+
 \rel.figure{myfig}{这是一个数字标题。}{figure.svg}{}
 
 先看[@fig:myfig]把。
