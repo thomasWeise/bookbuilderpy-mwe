@@ -37,13 +37,13 @@ See, for instance, \def.ref{mydef} below.
 [@lst:localCode] is a local code file, which resides in the same folder as the markdown file of this chapter.
 [@lst:gitCode] comes from GitHub, from the repository `bb` declared in the metadata.
 
-You can access metadata via the command `meta`.
+You can also access the book metadata via the command `meta`.
 Example are:
 
 1. Book-related metadata:
     - title: \meta{title}
     - author: \meta{author}
-    - keyowords: \meta{keywords}
+    - keywords: \meta{keywords}
 2. Date-related metadata:
     - time: \meta{time}
     - date: \meta{date}
@@ -52,12 +52,12 @@ Example are:
     - lang: \meta{lang}
     - locale: \meta{locale}
     - lang.name: \meta{lang.name}
-4. Repository-related metadata (*only* available if the book is written as a git repository):
+4. Repository-related metadata (*only* available if the book is written as a `git` repository):
     - repo.name: \meta{repo.name}
     - repo.url: \meta{repo.url}
     - repo.commit: \meta{repo.commit}
     - repo.date: \meta{repo.date}
-5. External Repository Information is accessible via the command `repo`, using the repository key and the repository information query:
+5. External repository information is accessible via the command `repo`, using the repository key and the repository information query^[Notice that we use `bb` to also identify the GitHub repository of this example to make the example self-contained.]:
     - repo.name for `bb`: \repo{bb}{repo.name}
     - repo.commit for `bb`: \repo{bb}{repo.commit}
     - repo.date for `bb`: \repo{bb}{repo.date}
