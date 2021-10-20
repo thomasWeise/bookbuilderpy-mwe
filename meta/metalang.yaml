@@ -41,4 +41,3 @@ header-includes:
   \crefname{chapter}{Chapter}{Chapters}%                    8
   \crefname{section}{Section}{Sections}%                    9
   ```
-

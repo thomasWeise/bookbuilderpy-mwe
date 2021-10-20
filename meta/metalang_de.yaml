@@ -42,4 +42,3 @@ header-includes:
   \crefname{chapter}{Kapitel}{Kapitel}%                     8
   \crefname{section}{Abschnitt}{Abschnitten}}%              9
   ```
-
